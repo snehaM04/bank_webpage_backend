@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.onlineBankingSystem.OnlineBankingSystemApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.13 s -- in com.example.onlineBankingSystem.OnlineBankingSystemApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.95 s -- in com.example.onlineBankingSystem.OnlineBankingSystemApplicationTests
