@@ -17,7 +17,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests()
                 .requestMatchers(HttpMethod.POST, "/api/login", "/api/customer/create", "/api/account/create",
                         "/api/transaction/deposit", "/api/transaction/withdraw", "/api/transaction/transfer").permitAll()
-                .requestMatchers(HttpMethod.GET, "/api/customer/getDetails", "/api/account/getAccountDetails",
+                .requestMatchers(HttpMethod.GET, "/api/customer/getDetails/**", "/api/account/getAccountDetails/**","/api/account/existsAccountId/**","api/account/existsCustomerId/**",
                         "/api/transaction/transactionHistory").permitAll()
                 .anyRequest().authenticated();
 
