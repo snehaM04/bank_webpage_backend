@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.Map;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://bank-application-frontend-xwa6.onrender.com")
 @RestController
 @RequestMapping("/api")
 public class LoginController {

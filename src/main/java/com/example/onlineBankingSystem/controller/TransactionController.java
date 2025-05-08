@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://bank-application-frontend-xwa6.onrender.com")
 @RestController
 @RequestMapping("/api/transaction")
 public class TransactionController {
