@@ -14,7 +14,7 @@ public class SecurityConfig {
                 .csrf().disable()
                 .cors().and()
                 .authorizeHttpRequests()
-                .requestMatchers("/api/login", "/api/customer/create").permitAll()
+                .requestMatchers("/api/login", "/api/customer/create" , "/api/account/create" , "/api/transaction/deposit" ,"/api/transaction/transactionHistory").permitAll()
                 .anyRequest().authenticated();
 
         return http.build();
