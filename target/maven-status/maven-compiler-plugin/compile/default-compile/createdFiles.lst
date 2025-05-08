@@ -2,6 +2,7 @@ com\example\onlineBankingSystem\controller\AccountController.class
 com\example\onlineBankingSystem\controller\CustomerController.class
 com\example\onlineBankingSystem\model\Deposit.class
 com\example\onlineBankingSystem\exception\TransactionNotFoundException.class
+com\example\onlineBankingSystem\WebConfig.class
 com\example\onlineBankingSystem\exception\CustomExceptionHandler.class
 com\example\onlineBankingSystem\exception\CustomErrorResponse.class
 com\example\onlineBankingSystem\model\Login.class
@@ -15,7 +16,9 @@ com\example\onlineBankingSystem\exception\InsufficientBalanceException.class
 com\example\onlineBankingSystem\model\Customer.class
 com\example\onlineBankingSystem\repository\TransactionRepository.class
 com\example\onlineBankingSystem\repository\AccountRepository.class
+com\example\onlineBankingSystem\SecurityConfig.class
 com\example\onlineBankingSystem\util\RandomNumberTransaction.class
+com\example\onlineBankingSystem\WebConfig$1.class
 com\example\onlineBankingSystem\service\TransactionService.class
 com\example\onlineBankingSystem\controller\TransactionController.class
 com\example\onlineBankingSystem\model\Account.class
